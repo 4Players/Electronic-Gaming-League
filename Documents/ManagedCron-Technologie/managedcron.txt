@@ -1,0 +1,13 @@
+
+
+
+(1) Jeder ManagedCron Service muss folgende "Anfrage" Funktionen haben
+	# ping
+	PARAM-IN:
+	 - send_time (zeit, wann es vom server losgeschickt wurde)
+	 - url	(for recontact)
+	PARAM-OUT:
+	 - received_time (zeit, wann es vom client empfangen wurde)
+	 - resend_time (zeit, nach der verarbeitung )
+	 - url (for recontact)
+	# run

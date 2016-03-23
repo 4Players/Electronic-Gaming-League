@@ -1,0 +1,26 @@
+c0001	= "Français"
+
+
+c1000	= "Recherche"
+c1001	= "Mot-clé"
+c1002	= "Identification"
+c1003	= "début"
+
+
+
+c1100	= "Tout le Workspaces"
+c1101	= "Tlate-forme totale"
+c1102	= "Base"
+c1103	= "Résultats de la recherche"
+c1104	= "Fichier"
+c1105	= "Digne"
+c1106	= "Amortisseur"
+c1107	= "TYPE"
+c1108	= "C-ID"
+c1109	= "TPL-VAR"
+c1110	= "WS"
+c1111	= "MLS"
+c1112	= "Multi Language System"
+	
+c1200	= "Profileur"
+c1201	= "Encore pas de mise en oeuvre"

@@ -1,0 +1,1 @@
+<?php $cat_root_id  = -1; ?>

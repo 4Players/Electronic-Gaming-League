@@ -1,0 +1,128 @@
+BODY 
+{
+	FONT-FAMILY: Verdana;
+}
+
+
+TABLE 
+{
+	BACKGROUND-REPEAT: repeat;
+	FONT-SIZE: 10px; 
+	FONT-FAMILY: verdana, arial, helvetica, sans-serif;
+}
+
+
+TD 
+{
+	FONT-SIZE: 10px; 
+	FONT-FAMILY: verdana, arial, helvetica, sans-serif;
+	COLOR: #000000;
+}
+
+
+
+message.table
+{
+}
+
+message.td
+{
+}
+
+
+
+A:link, A:visited, A:active
+{
+	COLOR: #900; 
+	text-decoration: underline;
+	font-size: 10px;
+	FONT-FAMILY: verdana, arial, helvetica, sans-serif;
+}
+
+
+
+A:hover 
+{
+	
+	COLOR: #000; 
+	text-decoration: none;
+	font-size: 10px;
+	FONT-FAMILY: verdana, arial, helvetica, sans-serif;
+}
+
+
+
+textarea
+{
+	font-family:Verdana,Tahoma,Arial,Sans-Serif;
+	font-size:10px;
+	color:#000;background-color:#eee;
+	border:1px #999 solid;
+}
+
+
+
+
+
+
+
+
+.egl_textbox
+{
+	font-family:Verdana,Tahoma,Arial,Sans-Serif;
+	font-size:10px;
+	color:#000;
+	background-color:#eee;
+	border:1px #999 solid;
+}
+
+.egl_select
+{
+	font-family:Verdana,Tahoma,Arial,Sans-Serif;
+	font-size:10px;
+	color:#000;
+	background-color:#eee;
+	border:0px #999 solid;
+}
+
+.egl_button
+{
+
+    font-family:Tahoma,Arial,Verdana,Sans-Serif;
+    font-size:10px;
+    height:19px;
+    border:1px #999 solid;
+	background-color:#eee;
+}
+
+.egl_text
+{
+	font-family:Verdana,Tahoma,Arial,Sans-Serif;
+	font-size:10px;
+	color:#000;
+	background-color:#eee;
+	border:1px #999 solid;
+}
+
+.egl_upload
+{
+	font-family:Verdana,Tahoma,Arial,Sans-Serif;
+	font-size:10px;
+	color:#000;
+	background-color:#eee;
+	border:1px #999 solid;
+}
+
+
+.egl_checkbox
+{
+    margin-top:0px;
+    margin-bottom:0px;
+    margin-left:0px;
+    margin-right:0px;
+}
+
+
+.egl_font_title
+{
+}

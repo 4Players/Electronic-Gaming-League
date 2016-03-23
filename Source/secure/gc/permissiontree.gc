@@ -1,0 +1,99 @@
+; ================================ Copyright © 2005-2006 Inetopia, All rights reserved. ==========================
+; 
+;
+; Purpose:
+; ================================================================================================================
+
+
+
+;######################################################################
+:	Description:
+:	
+:	
+:	
+:	
+;######################################################################
+
+
+;=================================
+; Admin - Tree
+;=================================
+
+	;-----------------------
+	; structure tree => + names
+	;-----------------------
+	admin.name0  		= Master		; global access (down)
+	admin.name0_0		= Protests		; protest & match manager			
+	admin.name0_1		= Accounts		; Member + Clan access
+	admin.name0_2		= Members		; only Members
+	admin.name0_3		= Clans			; only Clans
+	admin.name0_4		= Community		; community permissions
+	admin.name0_5		= News			; news
+
+
+	
+	
+	;-----------------------
+	; constants
+	;-----------------------
+	admin.const0 		= master
+	admin.const0_0		= protests
+	admin.const0_1		= accounts
+	admin.const0_2		= members
+	admin.const0_3		= clans
+	admin.const0_4		= community
+	admin.cinst0_4		= news
+
+	
+
+;=================================
+;Clan-Tree
+;=================================
+
+	;-----------------------
+	; structure tree => + names
+	;-----------------------
+	clan.name0 		= Leader			
+	clan.name0_0 		= CoLeader
+	clan.name0_0_0 			= Member
+	clan.name0_0_1 			= Honorary
+	clan.name0_0_2			= Trial
+	
+
+	;-----------------------
+	; constants
+	;-----------------------
+	clan.const0 		= leader
+	clan.const0_0 			= coleader
+	clan.const0_0_0 			= member
+	clan.const0_0_1				= honorary
+	clan.const0_0_2 			= trial
+
+	
+	
+
+;=================================
+;Team-Tree
+;=================================
+
+
+	;-----------------------
+	; structure tree
+	;-----------------------
+	team.name0 		= Leader
+	team.name0_0 		= Orga
+	team.name0_0_0		= Trainer
+	team.name0_0_1 		= Spieler
+	team.name0_0_2 		= Inaktiv
+
+	
+	;-----------------------
+	; constants
+	;-----------------------
+	team.const0 		= squad_leader
+	team.const0_0 		= orga
+	team.const0_0_0		= trainer
+	team.const0_0_1		= fighter
+	team.const0_0_2		= inactive
+	
+	

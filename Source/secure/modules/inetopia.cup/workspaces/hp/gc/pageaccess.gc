@@ -1,0 +1,22 @@
+	info				= 
+	member_join			= member
+	team_join			= team.squad_leader,team.orga
+	memberlist			= ; 
+	overview			= ; Alle
+	participants  		= ; Alle
+	cuptree				= ; Alle
+	cuptree				= ; Alle
+	quit				= member; Alle
+	
+	
+	; ====================================
+	; A D M I N I S T R A T I O N
+	; ====================================
+	administration.admin.overview			= admin.master,admin.cms,admin.cup
+	administration.admin.cuptree			= admin.master,admin.cms,admin.cup
+	administration.admin.participants		= admin.master,admin.cms,admin.cup
+	administration.admin.configuration		= admin.master,admin.cms
+	administration.admin.administrator		= admin.master,admin.cms
+
+	administration.new_cup					= admin.master,admin.cms
+	administration.gamecups					= admin.master,admin.cms,admin.cup

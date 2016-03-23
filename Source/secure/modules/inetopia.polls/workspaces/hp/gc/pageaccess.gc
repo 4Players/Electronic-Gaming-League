@@ -1,0 +1,7 @@
+
+	
+	
+	admin.overview		= admin
+	admin.categories	= admin
+	admin.create		= admin.master,admin.cms,admin.polls
+	admin.admin			= admin.master,admin.cms,admin.polls

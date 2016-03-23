@@ -1,0 +1,95 @@
+c1000 = "Turnierübersicht";
+c1001 = "Öffentlich"
+c1002 = "Turnierstart"
+c1003 = "Max. Teilnehmer"
+c1004 = "Eingetragene Teilnehmer"
+c1005 = "Administratoren"
+c1006 = "Map-Pool"
+c1007 = "Kein Map-Pool angegeben"
+c1008 = "Siegerehrung"
+c1009 = "Beschreibung"
+c1010 = "News"
+
+
+; MENU
+c1020 = "Übersicht"
+c1021 = "Teilnehmer"
+c1022 = "Turnierbaum"
+c1023 = "Begegnungen"
+c1024 = "Regelwerk"
+
+
+;RANKING
+c1040 = "1. Platz"
+c1041 = "2. Platz"
+c1042 = "3. Platz"
+
+c1050 = "Check-In"
+c1051 = "Check-Out"
+c1052 = "einschreiben"
+c1053 = "auschreiben"
+
+; PARTICIPANTS
+c1100 = "Teilnehmer"
+c1101 = "Teilnehmer-Stats"
+c1102 = "Teilnehmerliste"
+
+
+; CUP-TREE
+c1200 = "Turnierbaum"
+c1201 = "Runden"
+c1202 = "Runde"
+c1203 = "Gewinner"
+c1204 = "VS."
+
+
+; ENCOUNTS
+c1300 = "Begegnungen"
+c1301 = "Die Begegnungen stehen noch nicht fest!"
+
+
+; RULES
+c1350	= "Regelwerk"
+c1351 = "Kein Regelwerk vorhanden"
+
+;------------
+; MESSAGES
+;------------
+
+; MEMBER-JOIN
+c1400 = "Du musst zuerst einen geeigneten GameAccount einrichten, um in diesem Cup mitzuspielen"
+c1401 = "Die maximale Teilnehmerzahl wurde bereits erreicht"
+c1402 = "Du hast dich bereits in den Cup eingeschrieben"
+c1403 = "Es sind folgende Fehler aufgetreten"
+c1404 = "Du hast dich gerade in den Cup eingeschrieben"
+c1405 = "Du kannst dich nicht mehr in diesem Cup eintragen"
+c1406 = "Du bis nicht im Cup eingeschrieben"
+c1407 = "Du hast dich gerade aus dem Cup ausgeschrieben"
+c1408 = "Du kannst dich nicht mehr aus dem Cup austragen"
+c1409 = "Es konnte kein Check-IN durchgeführt werden"
+c1410 = "Der Check-In wurde erfolgreich durchgeführt"
+c1411 = "Es konnte kein Check-Out durchgeführt werden"
+c1412 = "Der Check-Out wurde erfolgreich durchgeführt"
+
+; TEAM-JOIN
+c1450 = "Es haben nicht genug Spieler einen geeigneten GameAccount eingetragen, um in diesem Cup mitzuspielen"
+c1451 = "Das Team enthält Spieler, die bereits über andere Teams in diesem Cup eingetragen sind"
+c1452 = "Die maximale Teilnehmerzahl wurde bereits erreicht"
+c1453 = "Das Team ist bereits im Cup eingeschrieben"
+c1454 = "Das Team wurde erfolgreich in den Cup eingeschrieben"
+c1455 = "Es sind folgende Fehler beim Einschreiben aufgetreten"
+c1456 = "Das Team kann nicht in diesem Cup mitspielen"
+c1457 = "Das Team wurde noch nicht in den Cup eingeschrieben"
+c1458 = "Das Team wurde gerade in den Cup eingetragen"
+c1459 = "Das Team kann sich nicht mehr in den Cup einschreiben"
+c1460 = "Der Check-In wurde erfolgreich durchegführt. Vielen Dank!"
+c1461 = "Es konnte kein Check-In durchgeführt werden"
+c1462 = "Der Check-Out wurde erfolgreich durchegführt. Vielen Dank!"
+c1463 = "Es konnte kein Check-In durchgeführt werden"
+
+
+
+
+
+; QUIT 
+

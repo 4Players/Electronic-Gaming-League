@@ -1,0 +1,838 @@
+c0001 = "Deutsch"
+
+c0010 = "Ladder"	; singular
+c0011 = "Ladder"	; plural
+
+c0020 = "Turnier"	; singular
+c0021 = "Turniere"	; plural
+
+c1000 = "Login"		; page title
+c1001 = "Login" 		; button
+c1002 = "Login-ID"
+c1003 = "Passwort"
+c1004 = "Automatisch einloggen, aktivieren"
+c1005 = "Passwort vergessen"
+c1006 = "Noch nicht registriert?"
+c1007 = "E-Mail"
+c1008 = "Mitglied freischalten"
+
+c1010 = "Team"
+c1011 = "Teams"
+c1012 = "Clan"
+c1013 = "Clans"
+c1014 = "Mitglied"
+c1015 = "Mitglieder"
+c1016 = "Key"
+c1017 = "Key wiederholen"
+c1018 = "abschicken"
+c1019 = "Administrator"
+c1020 = "Nickname"
+c1021 = "N/A"
+c1022 = "ID"
+c1023 = "Ja"
+c1024 = "Nein"
+c1025 = "Keine Implementierung"
+c1026 = "Keine Einträge vorhanden"
+c1027 = "Text"
+c1028 = "Spieler"
+c1029 = "Match-ID"
+
+; LOGOUT
+c1030	= "Du hast dich erfolgreich ausgeloggt";
+c1031	= "Du bist momentan nicht eingeloggt"
+c1032	= "Logout"
+
+; LOGIN
+c1060 = "Login fehlgeschlagen. Bitte überprüfe deine Daten"
+c1061 = "Danke, du hast dich erfolgreich im Portal eingeloggt"
+c1062 = "Das Mitglied muss erst freigeschaltet werden"
+c1063 = "Dieser Account ist vorübergehend gesperrt. Für mehr Informationen kontaktiere bitte den Administrator."
+c1064 = "Du bist bereits eingeloggt"
+
+; ACTIVATION
+c1080 = "Die Aktivierung war erfolgreich. Du kannst dich jetzt einloggen!"
+c1081 = "Die Passwörter stimmt nicht überein"
+
+c1100 = "Weiter"
+c1101 = "Zurück"
+c1102 = "Map"
+c1103 = "Status"
+c1104 = "Match"
+c1105 = "Refresh"
+
+c1200 = "Unbekannt"
+c1201 = "Bekannt"
+c1202 = "Mehr"
+c1203 = "Details"
+c1204 = "Fehler"
+c1205 = "Warnung"
+c1206 = "Information"
+c1207 = "Bestätigung"
+c1208 = "bestätigen"
+c1209 = "ändern"
+c1210 = "hinzufügen"
+c1211 = "entfernen"
+c1212 = "Keine"
+c1213 = "Jahre"
+c1214 = "beitreten"
+c1215 = "suchen"
+c1216 = "verlassen"
+c1217 = "{if $days != 0}{$days|tointeger} Tage {/if}{if $hours != 0}{$hours|tointeger} h {/if}{if $minutes != 0}{$minutes|tointeger} mins {/if}{if $seconds != 0}{$seconds|tointeger} sec{/if}"
+c1218 = "Jahre"
+c1219 = "Monate"
+c1220 = "Tage"
+c1221 = "Stunden"
+c1222 = "Minuten"
+c1223 = "Sekunden"
+c1224 = "zurücksetzen"
+c1225 = "freischalten"
+c1226 = "Freigeschaltet am"
+
+c1300 = "Bitte wählen"
+c1310 = "Bitte Team wählen..."
+
+c1400	= "aktiviert"
+c1401	= "deaktiviert"
+c1402	= "aktiv"
+c1403	= "inaktiv"
+c1404	= "eintragen"
+c1405	= "Eingetragen"
+c1406	= "jetzt eintragen"
+c9803	= "Teilnehmer"
+c9804	= "leeren"
+
+
+; SETTINGS
+c9900 = "KB"
+c9901 = "MB"
+c9902 = "GB"
+
+
+; ...
+c2000	= "Dieses Mitglied kann diese Rechte nicht erhalten, da es nicht im Team ist"
+c2001	= "Das Primär-Mitglied hat bereits diese Rechte"
+c2002	= "Die Sicherheitseingaben sind fehlerhaft. Bitte prüfe diese erneut"
+c2003	= "Die neuen Rechte können keine Primär-Rechte sein"
+c2004	= "Die Primär-Rechte wurden erfolgreich vergeben."
+c2005	= "Hiermit stellst du dich mit diesem Mitglied gleich - somit kannst du diesen nicht weiter verwalten. Diese Aktion ist von dir aus nicht wiederrufbar"
+c2006	= "Primär-Rechte `{$primary_rights}` vergeben"
+c2007	= "An Mitglied"
+c2008	= "Neue Berechtigung"
+c2009	= "Dieses Mitglied hat bereits den höchsten Rang"
+
+
+; E-MAIL SEND
+c2100	= "E-Mail verschicken"
+c2101	= "Empfänger"
+c2102	= "Betreff"
+c2103	= "Nachricht"
+c2104 	= "E-Mail wurde verschickt"
+c2105	= "Es ist ein Fehler aufgetreten. Bitte melde das umgehend dem Webadministrator. Vielen Dank!"
+c2106	= "Nachricht schicken"
+c2107	= "Der Empfänger existiert nicht"
+
+; FAQ
+c2201	= "FAQ - Frequently aked Questions"
+c2202	= ""
+
+; PASSWORD,FORGOT?
+c2301 = "Passwort vergessen?"
+c2302 = "Neues Passwort"
+c2303 = "Ein neues Passwort wurde gerade auf dein E-Mail Postfach verschickt"
+c2304 = "Es wurde keine passendes Mitglied zu diesen Daten gefunden"
+c2305 = ""
+c2306 = "Neues Passwort"
+c2307 = "Neues Passwort wiederholen"
+
+; ..
+c2310 = "Das Passwort konnte nicht erneuert werden. Bitte melde das umgehenden dem Webadministrator"
+c2311 = "Es ist ein unbekannter Fehler aufgetreten. Bitte melde das umgehenden dem Webadministrator"
+
+; STARTSEITE, NEWS
+c2350 = "News Übersicht"
+c2361 = "FULL STORY"
+c2362 = "Geschrieben von {$name|strip_tags|stripslashes}, {date timestamp=$timestamp}"
+
+; SIGNIN
+c2400 = "Anmeldung"
+c2401 = "Nutzungsbedingungen"
+c2402 = "Datenschutz"
+c2403 = "Hiermit bestätige ich die Nutzungsbedingungen!"
+c2404 = "Hiermit bestätige ich den Datenschutz!"
+c2405 = "Sicherheitscode"
+c2406 = "Der Nickname muss mehr als 3 Zeichen haben"
+c2407 = "Die E-Mail muss mehr als 3 Zeichenhaben"
+c2408 = "Die Nutzungsbedingungen und der Datenschutz müssen akzeptiert werden um sich anzumelden"
+c2409 = "Ein Mitglied mit diesen Daten existiert bereits"
+c2410 = "Es ist ein Fehler während der Anmeldung augetreten. Bitte melde das umgehend dem Webadministator"
+c2411 = "Die Anmeldung war erfolgreich. Sie erhalten in kürze eine Bestätigung per E-Mail. Vielen Dank!"
+c2412 = "Es sind folgende Fehler während der Anmeldung aufgetreten"
+c2413 = "DU bist bereits eingeloggt"
+c2414 = "Nationalität"
+c2415 = "Registrierung"
+c2416 = "Anmeldung"
+
+; PROFILE
+c2500 = "Profil"
+c2501 = "Nickname"
+c2502 = ""
+
+; TEAM
+c2600 = "Interaktiv Team" 
+c2601 = "Einstellungen"
+c2602 = "Daten editieren"
+c2603 = "Spiele wählen"
+c2604 = "Team Logo"
+c2605 = "Team löschen"
+c2606 = "Clan beitreten"
+c2607 = "Clan verlassen"
+c2608 = "Mitglieder"
+c2609 = "Mitglieder-Übersicht"
+c2610 = "Zugriffsrechte"
+c2611 = "Begegnungen"
+c2612 = "Offene Matches"
+c2613 = "Matches"
+c2614 = "Sonstiges"
+c2615 = "Team Supportanfragen"
+c2616 = "Team Proteste"
+c2617 = "Mitglied kicken"
+c2618 = "Registriert seit"
+c2619 = "Mitglieder"
+c2620 = "Team-Mitglieder"
+c2621 = "Teams suchen"
+
+c2800 = "Proteste"
+
+
+; ERROR-PAGE(s)
+c3001	= "Es ist ein Fehler aufgetreten"
+c3002	= "Die Seite konnte nicht geladen werden"
+c3003	= "Entweder Sie haben keine Rechte für diesen Bereich oder Sie sind nicht eingeloggt. Bei Fragen wenden Sie sich bitten an den Webmaster an die zuständigen Administratoren."
+
+
+; GAMEVIEW
+c3010	= "Spielübersicht"
+c3011	= ""
+c3012	= ""
+
+
+; GAME-SUMMARY
+c3050	= "Hersteller"
+c3051	= "Publisher"
+c3052	= "Veröffentlichung"
+c3053	= "Keine Kurzbeschreibung vorhanden."
+c3054	= "Aktuelles"
+	;c3055	= "FULL STORY" -> c2361
+	;c3056	= "Geschrieben von {$name}, {date timestamp=$time}" -> c2362
+c3057	= "{$participants|tointeger} Teilnehmer, {$matches|tointeger} Matches"
+c3058	= "{$participants|tointeger} Teilnehmer, {date timestamp=$start}"
+c3060	= "Umfrage"
+c3061	= "Weitere Umfragen"
+c3062	= "Vote"
+c3063	= "FastChallenge aktiv"
+
+
+; -------------------------
+; -------------------------
+; ubiquist
+; -------------------------
+; -------------------------
+c4000	= "ÜBERSICHT"
+c4001	= "LIGEN"
+c4002	= "UMFRAGEN"
+c4003	= "STARTSEITE"
+c4004	= "ONLINE"
+c4005	= "MITGLIEDER"
+c4006	= "CLANS"
+c4007	= "TEAMS"
+c4008	= "IMPRESSUM"
+c4009	= "FORUM"
+
+c4010	= "Übersicht"
+c4011	= "Ligen"
+c4012	= "Umfragen"
+c4013	= "Einloggen?"
+c4014	= "Jetzt registrieren?"
+c4015	= "Login"
+
+c4020	= "Mein Account"
+c4021	= "CLANS"
+c4022	= "TEAMS"
+
+
+; COMMENTS
+c4200	= "Keine Kommentare vorhanden"
+c4201	= "Verfasst am {date timestamp=$time format='%d.%m.%y %H:%M'}"
+c4202	= "Kommentar schreiben"
+c4203	= "Kommentare"
+
+
+; MEMBER
+c4250	= "ID"
+c4251	= "Identität"
+c4252	= "Nickname"	; c1020
+c4253	= "Vorname"
+c4254	= "Nachname"
+c4255	= "Vor/-Nachname"
+c4256	= "Name"
+c4257	= "Nationalität"
+c4258	= "Geburtstag"
+c4259	= "Beruf"
+c4260	= "Clanzugehörigkeit"
+c4261	= "Geschlecht"
+c4262	= "Registriert am"
+c4263	= "Wohnort"
+c4264	= "männlich"
+c4265	= "weiblich"
+c4266	= "Kontakt"
+c4267	= "E-Mail"
+c4268	= "PM"
+c4269	= "Game-Accounts"
+c4270	= "Allgemein"
+c4271	= "About me?"
+c4272	= "Mitgliedschaft"
+c4273	= "Letzter Login am"
+c4274	= "Dieser Spieler wurde aufgrund seines Fehlverhaltens bis zum {date timestamp=$ban_end} gesperrt."
+c4275	= "Mehr Informationen"
+c4276	= "Sperrzeitpunkt"
+c4277	= "Ablaufzeitpunkt"
+c4278	= "Sperrzeit"
+c4279	= "Verbleibend"
+c4280	= "{if $days != 0}{$days|tointeger} Tage {/if}{if $hours != 0}{$hours|tointeger} Stunden {/if}{if $minutes != 0}{$minutes|tointeger} Minuten {/if}{if $seconds != 0}{$seconds|tointeger} Sekunden{/if}"
+c4281	= "MSN"
+c4282	= "ICQ"
+c4283	= "IRC-Nick"
+c4284	= "Handy"
+c4285	= "Beschreibung"
+c4286	= "erstellt am {date timestamp=$time}"
+c4287	= "Spiele"
+c4288	= "Computer"
+c4289	= "CPU"
+c4290	= "Mainboard"
+c4291	= "Grafikkarte"
+c4292	= "Soundkarte"
+c4293	= "Maus"
+c4294	= "Mauspad"
+c4295	= "Tastatur"
+c4296	= "Speicher"
+c4297	= "Festplatte"
+c4298	= "Bildschirm"
+c4299	= "Internet-Anbindung"
+c4300	= "Konsole"
+c4301	= "Invisible Mode"
+c4302	= "AM"
+c4303 	= "Freigeschaltet"
+
+c4310	= "Mein Profil"
+c4311	= "öffentlich"
+c4312	= "Clan Name"
+c4313	= "Clan Kürzel"
+c4314	= "Clan Homepage"
+c4315	= "Clan IRC"
+c4316	= "Persönliches"
+c4320	= "Land"
+c4321	= "Stadt"
+c4322	= "PLZ"
+c4323	= "Straße"
+c4324	= "Hobbys"
+
+; PROFIL
+
+c4330	= "Es ist ein unbekannter Fehler aufgetreten. Bitte melde das dem Webmaster!"
+c4331	= "Das System hat die Änderungen erfolgreich übernommen"
+c4332	= "Es wurde kein Mitglied gefunden"
+c4333	= "Der Account konnte nicht freigeschaltet werden"
+
+
+; MEMBER-INTERACTIVE
+c4350	= "Interaktiv"
+c4351	= "MEIN ACCOUNT"
+c4352	= "Account"
+c4353	= "Daten editieren"
+c4354	= "Foto ändern"
+c4355	= "Logo ändern"
+c4356	= "Account löschen"
+c4357	= "Game-Accounts"
+c4358	= "Spiel wählen"
+
+c4370	= "Clan"
+c4371	= "Clan erstellen"
+c4372	= "Clan joinen"
+c4373	= "Clan verlassen"
+c4374	= "Einladungen"
+
+c4390	= "Team"
+c4391	= "Team erstellen"
+c4392	= "Team joinen"
+c4393	= "Team verlassen"
+
+c4400	= "Nachrichten"
+c4401	= "Nachricht schreiben"
+c4402	= "Neue Nachrichten"
+c4403	= "Archiv"
+
+c4410	= "Sonstiges"
+c4411	= "Startseite"
+c4412	= "Supportanfrage"
+c4413	= "Proteste"
+c4414	= "Neuer Protest"
+
+c4420	= "Einstellung"
+c4421	= "Skin & Layout"
+c4422	= "Rankbutton"
+c4423	= "Datenbank Interface"
+c4424	= "Sprachen"
+
+
+
+; PROFILE::CHANGE EMAIL
+
+c4500	= "E-Mail ändern"
+c4501	= "Aktuelle E-Mail"
+c4502	= "Neue E-Mail"
+
+c4503	= "Bitte überprüfe deine neue E-Mail genau"
+c4504	= "Deine E-Mail wurde vom System erfolgreich übernommen"
+c4505	= "Diese E-Mail wird bereits von einem anderen Mitglied genutzt"
+
+c4510	= "Passwort ändern"
+c4511	= "Altes Passwort"
+c4512	= "Neues Passwort"
+c4513	= "Neues Passwort wiederholen"
+c4514	= "Jedes Feld muss ausgefüllt werden"
+c4515	= "Das Passwörter stimmen nicht überein"
+c4516	= "Das neue Passwort wurde vom System übernommen"
+
+c4529	= "Game-Account"
+c4530	= "Game Accounts"
+c4531	= "Game-Account erstellen"
+c4532	= "Wert"
+c4533	= "Beweisdaten"
+c4534	= "Begründung"
+c4535	= "Anhang"
+c4536	= "Media -aktivieren"
+c4537	= "Solltest du eine Änderung vornehmen, selektiere bitte die Checkbox + den Beweis-Anhang inkl. den zugehörigen Daten"
+c4538	= "Die Änderungen wurde vom System übernommen"
+c4539	= "Es ist ein unbekannter Fehler aufgetreten"
+c4540	= "Der Wert hat nicht das richtige Format"
+c4541	= "Geändert am"
+c4542	= "Kein Account eingetragen"
+c4543	= "Es besteht bereits ein Gameaccount. Um diesen im Nachhinein zu verändern, müssen die Beweisdaten angegeben werden."
+c4544	= "Der Wert wird bereits von einem anderen Spieler verwerdet und kann nicht mehr benutzt werden."
+c4545	= "Der Gameaccount wurde erfolgreich eingerichtet."
+c4546	= "Der Gameaccount konnte nicht eingerichtet werden, bitte melde dieses Problem bei den zuständigen Administratoren."
+c4547	= "Der GameAccount konnte nicht erstellt werden, keine zulässige Angabe."
+
+; PHOTO
+
+c4550	= "Foto hochladen"
+c4551	= "Aktuell"
+c4552	= "Foto"
+c4553	= "Aktuelles Foto nur löschen"
+c4554	= "Dein Foto wurde gelöscht"
+c4555	= "Dein Foto wurde erfolgreich hochgeladen"
+c4556	= "Die Datei überschreitet die maximale Dateigröße"
+c4557	= "Die Datei überschreitet die maximale Dateigröße"
+c4558	= "Datei konnte nur teilweise hochgeladen werden. Bitte versuchen Sie den Vorgang erneut."
+c4559	= "Unbekannter Fehler aufgetreten. Bitte melden Sie dies umgehend Ihrem Webmaster. Vielen Dank!"
+c4560	= ""
+
+; LOGO
+c4570	= "Logo hochladen"
+c4571	= "Aktuell"
+c4572	= "Logo"
+c4573	= "Aktuelles Logo nur löschen"
+c4574	= "Dein Logo wurde gelöscht"
+c4575	= "Dein Logo wurde erfolgreich hochgeladen"
+
+; SELECT GAMES
+
+c4600	= "Spiel wählen"
+c4601	= "Folgende Spiele sind bei dir eingetragen"
+c4602	= "Entfernen"
+c4603	= "Übersicht"
+c4604	= "Spiel wählen"
+
+; MEMBER CLAN-INVITES
+c4620	= "Einladungen"
+c4621	= "Clan Einladungen"
+c4622	= "Abgelehnt"
+c4623	= "Akzeptiert"
+c4624	= "beitreten"
+c4625	= "ablehnen"
+c4626	= "Die Aufnahme war erfolgreich"
+c4627	= "Du wurdest bereits von diesem Clan aufgenommen"
+c4628	= "Status"
+c4629	= "erstellt am"
+c4630	= "löschen"
+c4631	= "Sie haben keine Berechtigung diese Einladung zu bearbeiten"
+c4632	= "Diese Einladung kann nicht mehr verändert werden"
+c4633	= "Sie haben die Einladung erfolgreich gelöscht"
+c4634	= "Mitglied einladen"
+c4635	= "Dieses Mitglied ist dem Clan bereits beigetreten"
+c4636	= "Dieses Mitglied hat bereits eine unverarbeitete Einladung"
+c4637	= "Die Einladung wurde gerade dieser Person zugeteilt"
+c4638	= "Es ist ein unbekannter Fehler aufgetreten. Bitte melde dies dem zuständigen Administratoren"
+c4639	= "Es konnte kein Mitglied mit diesen Daten gefunden werden"
+c4640	= "Keine Beschreibung vorhanden"
+
+; MEMBER
+c4650	= "Mitglieder suchen"
+c4651	= "Seite {$p1} von {$p2}"
+c4652	= "Options"
+
+
+; ONLINE
+c4700	= "Wer ist online?"
+c4701	= "Es sind insgesamt {$num_members} online, davon sind {$num_invisible} versteckt"
+c4702	= "Letzter Zugriff"
+
+; CLAN
+c4720	= "Clan erstellen"
+c4721	= "Clan-Name"
+c4722	= "Clan-Kürzel"
+c4723	= "Homepage"
+c4724	= "Dein neuer Clan wurde gerade erstellt"
+c4725	= "Der Clan konnte nicht erstellt werden. Bitte melde das dem Webmaster"
+c4726	= "Clan-ID"
+c4727	= "Der Clan-Name existiert bereits. Bitte wähle einen anderen"
+
+c4730	= "Clan beitreten"
+c4731	= "Kein Clan gefunden"
+c4732	= "jetzt beitreten"
+
+c4733	= "Das Passwort ist falsch"
+c4734	= "Du bist bereits in diesem Clan"
+c4735	= "Du bist gerade dem Clan erfolgreich beigetreten"
+c4736	= "Der Clan existiert nicht"
+
+
+; CLAN CENTER
+c4740	= "Interaktiv Clan"
+c4741	= "Clan"
+c4742	= "Daten editieren"
+c4743	= "Logo ändern"
+c4744	= "Clan löschen"
+c4745	= "Clan verlassen"
+
+c4750	= "Team"
+c4751	= "Team erstellen"
+c4752	= "Team joinen"
+
+c4760	= "Mitglieder"
+c4761	= "Zugriffsrechte"
+c4762	= "Einladungen"
+c4763	= "Mitglied einladen"
+c4764	= "Mitglied kicken"
+
+c4780	= "Clan Profil"
+c4781	= "Join Passwort"
+c4782	= "IRC"
+c4783	= "channel@server"
+c4784	= "Land"
+c4785	= "Beschreibung"
+c4786	= "Spielerfotos anzeigen"
+c4787	= "Teamdetails anzeigen"
+
+c4788	= "Es ist ein Unbekannter Fehler aufgetreten. Bitte melde das dem Webmaster"
+c4789	= "Die Einstellungen wurden vom System erfolgreich übernommen"
+c4790	= "Dieser Clan existiert nicht"
+c4791	= "Clan-Mitglieder"
+c4792	= "Der Clan-Name existiert bereits."
+c4793	= "Das Passwort ist zu kurz"
+
+
+; CLAN LOGO
+c4800	= "Clan Logo"
+c4801	= "Aktuell"
+c4802	= "Logo"
+c4803	= "Aktuelles Logo nur löschen"
+
+c4804	= "Das Clan-Logo wurde gelöscht"
+c4805	= "Das Clan-Logo wurde erfolgreich hochgeladen"
+
+; DELETE CLAN 
+c4810	= "Clan löschen"
+
+; CLAN - CREATE TEAM 
+c4830	= "Team erstellen"
+c4831	= "Team-Name"
+c4832	= "Team-Kürzel"
+c4833	= "Sie sind in keinem Clan registriert."
+c4834	= "Das Team wurde erfolgreich erstellt"
+c4835	= "Team-ID"
+
+; CLAN-PERMISSIONS
+c4850	= "Clan Zugriffsrechte"
+c4851	= "Rechte"
+c4852	= "Diesem Mitglied {$rights} Rechte übergeben"
+c4853	= "kicken"
+c4854	= "Mitglied"
+c4855	= "Operationen"
+
+c4856	= "Díe Rechte wurden nicht oder nur teilweise gesetzt"
+c4857	= "Du kannst deine Rechte nicht verändern"
+c4858	= "Du kannst keine gleichberechtigten Mitglieder verwalten"
+c4859	= "Du kannst keine übergeordneten Mitglieder verwalten"
+c4860	= "Es ist ein Fehler aufgetreten - PermissionTree nicht richtig definiert"
+c4861	= "Die Änderungen wurden vom System übernommen"
+
+; PM
+c4900	= "Neue Nachricht"
+c4901	= "Mitglieder suchen"
+c4902	= "Eingang"
+c4903	= "Ausgang"
+c4904	= "Absender"
+c4905	= "Empfänger"
+c4906	= "Titel"
+c4907	= "geschickt am"
+c4908	= "empfangen am"
+c4909	= "ausgewählte Nachrichten"
+c4910	= "Bitte wählen"
+c4911	= "löschen"
+c4912	= "gelesen"
+c4913	= "ungelesen"
+c4914	= "Keine Nachrichten vorhanden"
+c4915	= "Nachricht schreiben"
+c4916	= "An"
+c4917	= "Nachricht"
+c4918	= "RE: {$old_title}"
+c4919	= "Antworten"
+c4920	= "Autor"
+c4921	= "Nachrichten können nicht an sich selbst verschickt werden"
+c4922	= "Deine Nachricht wurde erfolgreich an {$pm_name} verschickt"
+c4933	= "Deine Nachricht konnte leider aus technischen Gründen nicht gesendet werden. Sollte dieser Fehler erneut auftreten melde dies bitte dem Webmaster."
+c4934	= "Der Titel und der Text müssen mehr als 0 Zeichen enthalten"
+c4935	= "Der Empfänger existiert nicht. Bitte überprüfen  nochmals den Namen"
+
+; CLAN-INFO
+
+c5000	= "Clan Struktur"
+c5001	= "Zugehörige Teams"
+c5002	= "Beschreibung"
+c5003	= "{if strlen($irc_server) > 0}{$irc_server|strip_tags|stripslashes}{else}{$LNG_BASIC.c1021}{/if}"
+c5004	= "`{$rights}`-Rechte vergeben"
+c5005	= "An Mitglied"
+c5006	= "Neue Berechtigung"
+c5007	= "Key"
+c5008	= "Key wiederholen"
+c5009	= "Hiermit stellst du dich mit diesem Mitglied gleich - somit kannst du diesen nicht weiter verwalten. Diese Aktion ist von dir aus nicht wiederrufbar"
+c5010	= "Die Eingabefelder wurde nicht vollständig oder richtig ausgefüllt. Aktion wird abgebrochen!"
+c5011	= "Diese Person befindet sich nicht im Clan oder kann diese Rechte nicht erhalten"
+c5012	= "Die Rechte wurden hiermit vergeben"
+c5013	= "Dieses Mitglied hat bereits den höchsten Rang"
+
+
+
+c5020	= "Mitglied kicken"
+c5021	= "Wählen"
+c5022	= "Es ist ein Fehler aufgetreten. Falls der Fehler erneut auftritt, kontaktieren Sie bitte den Webadministrator"
+c5023	= "Du kannst dich nicht selbst kicken"
+c5024	= "{$kicked_nickname} wurde gerade aus dem Clan geworfen"
+
+; TEAM
+
+c5100	= "Team erstellen"
+c5101	= "Das Team wurde gerade erstellt"
+c5102	= "Es ist ein Fehler aufgetreten. Sollte dieser Fehler erneut auftreten melde das bitte dem Webmaster."
+c5103	= "Der Team-Name existiert bereits. Bitte wähle einen anderen"
+c5104	= "Die Einstellungen wurden vom System erfolgreich übernommen"
+c5105	= "Dieses Team existiert nicht"
+c5106	= "Es ist ein unbekannter Fehler aufgetreten. Bitte melde das dem Webmaster!"
+
+c5120	= "Team beitreten"
+c5121	= "Kein Team gefunden"
+c5122	= "Du bist bereits Mitglied in diesem Team"
+c5123	= "Das Passwort stimmt nicht überein"
+c5124	= "Der Beitritt war erfolgreich. Du bist nun Mitglied des Teams"
+
+
+c5200	= "Clan Zugehörigkeit"
+c5201	= "Clan HP"
+c5202	= "Spiele"
+c5203	= "Server"
+c5204	= "Beschreibung"
+c5205	= "Team-Struktur"
+c5206	= "Team löschen"
+
+c5250	= "Clan beitreten"
+c5251	= "Das Team gehört bereits zu einem Clan"
+c5252	= "Der Beitritt war erfolgreich"
+c5253	= "Das Passwort ist falsch"
+c5254	= "Dieser Clan existiert nicht"
+
+c5270	= "Team-Mitglied kicken"
+c5271	= "Es ist ein Fehler aufgetreten. Falls der Fehler erneut auftritt, kontaktieren Sie bitte den Webadministrator"
+c5272	= "Du kannst dich nicht selbst rauswerfen"
+c5273	= "{$kicked_nickname} wurde gerade aus dem Team geworfen"
+c5274	= "Diese Aktion muss über die Checkbox bestätigt werden"
+
+c5300	= "Team Logo"
+
+; TEAM-PERMISSIONS
+c5400	= "Team Zugriffsrechte"
+c5401	= "Rechte"
+
+
+; TEAM-PROFIL
+c5500	= "Team Profil"
+c5501	= "Join Passwort"
+c5502	= "Server"
+c5503	= "Max. 255 Zeichen"
+c5504	= "Land"
+c5505	= "Beschreibung"
+c5506	= "Spielerfotos anzeigen"
+
+c5520	= "Team verlassen"
+c5521	= "Du bis kein Mitglied des Teams"
+c5522	= "Achtung - hiermit verlässt du das entsprechende Team"
+c5523	= "Du hast das Team gerade verlassen"
+c5524	= "Du bist momentan kein Mitglied in einem Team"
+c5525	= "Du kannst dieses Team als `{$permissions}` nicht verlassen. Du musst deine Rechte erst weitergeben"
+
+; QUIT CLAN
+c5550	= "Clan verlassen"
+c5551	= "Du bist kein Mitglied des Clans"
+c5552	= "Achtung - hiermit verlässt du das entsprechende Clan"
+c5553	= "Du hast den Clan gerade verlassen"
+c5554	= "Du bist momentan kein Mitglied des Clans"
+c5555	= "Du kannst diesen Clan als `{$permissions}` nicht verlassen. Du musst deine Rechte erst weitergeben"
+
+
+
+;###############################
+;# ADMINISTRATION
+;###############################
+c8000 = "Onlineliste"
+c8001 = "Proteste"
+c8002 = "Administration Übersicht"
+c8003 = "System"
+c8004 = "Inetopia.Module"
+c8005 = "Turniere"
+c8006 = "Ladder"
+c8007 = "News"
+c8008 = "Umfragen"
+c8009 = "Matches"
+c8010 = "Mitglieder - Verwalten"
+c8011 = "Clan - Verwaltung"
+c8012 = "Team - Verwaltung"
+c8013 = "Match - Verwaltung"
+c8014 = "Zentrale"
+
+; Central - Member
+c8050 = "Mitgliedschaft"
+c8051 = "Clans"
+c8052 = "Teams"
+c8053 = "Sperre deaktiviert"
+c8054 = "Sperre aktiviert"
+c8055 = "Sperre aufheben"
+c8056 = "Startzeitpunkt"
+c8057 = "Sofort"
+c8058 = "Zeitpunkt"
+c8059 = "Zeitspanne"
+c8060 = "Ablaufzeitpunkt"
+c8061 = "Ja, Benachrichtigung per E-Mail an Mitglied schicken"
+c8062 = "Ja, in History vermerken"
+c8063 = "Soll die Sperre jetzt aufgehoben werden?"
+c8064 = "Sperrzeitpunkt"
+c8065 = "Ablaufzeitpunkt"
+c8066 = "Sperrzeit"
+c8067 = "Verbleibend"
+c8068 = "Nachricht schreiben"
+c8069 = "Personal Message (PM)"
+
+; BUTTONS
+c8070 = "Zentrale"
+c8071 = "Profil"
+c8072 = "GameAccounts"
+c8073 = "History"
+c8074 = "Seitenprofil"
+c8075 = "Ligabetrieb"
+
+c8090 = "Mitglied ist gerade offline"
+c8091 = "Mitglied ist gerade online"
+c8092 = "Letzter Login"
+c8093 = "Letzte Seite"
+c8094 = "Zuletzt aktualisiert"
+c8095 = "History"
+c8096 = "letzte Einträge"
+c8097 = "History verwalten"
+
+c8100 = "Sprache wählen"
+c8101 = "Sprache"
+
+
+; PROTESTS
+c8200 = "Protest erstellen"
+c8201 = "Betreff"
+c8202 = "Text"
+c8203 = "Die Match-ID ist nicht korrekt"
+c8204 = "Es ist ein Fehler aufgetreten"
+
+c8220 = "Eigene Proteste"
+c8221 = "Match Anhang"
+c8222 = "erstellt am"
+c8223 = "Offene Proteste"
+c8224 = "Bearbeitete Proteste"
+c8225 = "Alle Proteste"
+
+c8250 = "Protest verwalten"
+c8251 = "Proteste Übersicht"
+c8252 = "Protest wurde von {$member_name} am {date timestamp=$created_time} erstellt"
+c8253 = "Protest wurde vom Admin {$admin_name} am {date timestamp=$admin_time} bearbeitet"
+c8254 = "Problem-Beschreibung"
+c8255 = "Antwort"
+c8256 = "abgearbeitet"
+c8257 = "noch nicht abgearbeitet"
+c8258 = "KEIN MATCH IM ANHANG"
+c8259 = "Protest nicht  gefunden"
+c8260 = "Proteste"
+c8261 = "Status"
+c8262 = "du hast gerade exklusiven Zugriff"
+c8263 = "verwaltet am"
+c8264 = "von"
+c8265 = "wird gerade verwaltet"
+c8266 = "löschen"
+c8267 = "Proteste Verwalten"
+c8268 = "Protest abgearbeitet"
+
+
+; MATCH-INFO
+
+c8400	= "Begegnung"
+c8401	= "Match-ID"
+c8402 = "Status"
+c8403 = "Termin"
+c8404 = "Ausgewertet am"
+c8405 = "geschlossen"
+c8406 = "läuft gerade"
+c8407 = "Ergebnisse"
+c8408 = "Total"
+c8409 = "Punkte"
+c8410 = "Media"
+c8411 = "Vs."
+c8412 = "gewinnt"
+c8413 = "verliert"
+c8414 = "unentschieden"
+c8415 = "Einstellungen"
+c8416 = "gesperrt"
+c8417 = "Report-Check"
+c8418 = "Noch nicht ausgewertet"
+c8419 = "by"
+c8420 = "Report für"
+
+
+; MATCH-LIST
+c8500	= "Matches"
+c8501 = "Bitte wählen"
+c8502 = "Alle Matches anzeigen"
+c8503 = "Offene Matches"
+c8504 = "Archiv"
+c8505 = "Gewonnen"
+c8506 = "Verloren"
+c8507 = "Keine Matches vorhanden"
+c8508 = "Offene Matches"
+c8509 = "Gespielte Matches"
+c8510 = "Gesperrte Matches"
+
+c10000 = "Willkommen" 

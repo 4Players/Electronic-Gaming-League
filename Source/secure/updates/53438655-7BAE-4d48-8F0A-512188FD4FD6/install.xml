@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install>
+	<item>
+		<action_id>1</action_id>
+		<type>COPY_FILE</type>
+		<params>
+			<file source="EGL_ROOT/secure/classes/RuntimeEngine.class.php" destination="EGL_ROOT/secure/classes/RuntimeEngine.class.php" />
+			<file source="EGL_ROOT/secure/classes/xml/XMLWriter.class.php" destination="EGL_ROOT/secure/classes/RuntimeEngine.class.php" />
+		</params>
+	</item>
+	<item>
+		<action_id>2</action_id>
+		<type>SQL_QUERY</type>
+		<params>
+			<query>UPDATE `egl_members` SET last_login="0"</query>
+		</params>
+	</item>
+	<item>
+		<action_id>3</action_id>
+		<type>SCRIPT</type>
+		<params>
+			<file source="updatelinks.script.php"/>
+			<priority>1</priority>
+		</params>
+	</item>
+	<item>
+		<action_id>4</action_id>
+		<type>COPY_FILE</type>
+		<params>
+			<file source="EGL_ROOT/secure/classes/core/UpdateManager.class.php" destination="EGL_ROOT/secure/classes/core/UpdateManager.class.php" />
+		</params>
+	</item>
+
+</install>

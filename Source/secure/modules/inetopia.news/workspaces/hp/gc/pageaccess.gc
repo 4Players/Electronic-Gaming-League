@@ -1,0 +1,7 @@
+
+	
+	
+	administration.overview		= admin
+	administration.categories	= admin
+	administration.create		= admin.master,admin.cms,admin.news
+	administration.admin		= admin.master,admin.cms,admin.news

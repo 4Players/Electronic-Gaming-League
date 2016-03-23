@@ -1,0 +1,38 @@
+TODO 0.4
+
+# 31.12.06
+
+
+Allgemein
+- Themen
+- Beiträge
+
+
+Verwaltung
+- Verschieben: Themen
+- Löschen: Themen,Beiträge
+- editieren
+
+Gruppen
+- Moderatoren
+- Secure
+- Moderatoren (PAM)
+
+
+Probleme:
+- Verbindung zu Spielen
+
+
+Themen:
+-> Quote
+-> Ranking (?später)
+
+
+
+- Verwaltungstypen 
+  * moderator (forum)
+    -> move
+    -> delete
+    -> edit
+  *   
+  

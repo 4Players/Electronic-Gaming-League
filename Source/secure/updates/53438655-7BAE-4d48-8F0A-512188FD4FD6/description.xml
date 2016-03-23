@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<description>
+	<header>
+		<id>53438655-7BAE-4d48-8F0A-512188FD4FD6</id>
+		<version>0.8.0.0</version>
+		<released>15651561</released>
+		<specification>security</specification>
+		<publisher>Inetopia</publisher>
+		<size unit="kb">300</size>
+		<details>Weitere Sicherheitupdates bezüglich einiger Module inkl. Kernelupdates.</details>
+	</header>
+	<required_updates/>
+</description>

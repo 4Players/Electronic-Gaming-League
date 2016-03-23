@@ -1,0 +1,146 @@
+
+; MEMBER-INFO
+c1000	= "Letzte Matches";
+c1001	= "fordern!";
+c1002	= "Punkte"
+c1003	= "Keine Matches gespielt"
+c1004	= "Ladder"
+
+c1010	= "WIN"
+c1011	= "LOSE"
+c1012	= "DRAW"
+c1013	= "RUNNING"
+
+c1050	= "1st Place"
+c1051	= "2nd Place"
+c1052	= "3rd Place"
+
+
+; FORDERUNGEN
+c1100	= "Du wurdest gerade gefordert!"
+
+; FORDERUNG ABLEHNEN
+c1200	= "Forderung ablehnen"
+c1201	= "Hiermit möchte ich diese Forderung ablehnen"
+c1202	= "AUTOMATISCH GENERIERT"
+
+
+c1300	= "Du kannst gerade diese Ladder nicht verlassen, da noch offene Forderungen oder Matches vorhanden sind. Kontaktiere bitte ggf. die zuständigen Administratoren!"
+c1301	= "Du hast gerade die Ladder erfolgreich verlassen!"
+c1302	= "Mit diesem Schritt löschst du unwiderruflich deine Punnktzahl in der Ladder"
+c1303	= "Ladder verlassen"
+c1304	= "Hiermit möchte ich diese Ladder verlassen!"
+
+; OVERVIEW
+c9000	= "Rang"
+c9001	= "Rangliste"
+c9002	= "Punkte"
+c9003	= "Matches"
+c9004	= "Fordern"
+c9005	= "anzeigen"
+c9006	= "Top Ergebnisse"
+c9007	= "Top Spieltermine"
+c9008	= "Top News"
+c9009	= "Mehr"
+c9010	= "Suchen"
+c9011	= "Name"
+c9012	= "Profil"
+c9013	= "Letzte Matches"
+c9014	= "Forderung"
+c9015	= "Ladder"
+c9016	= "Forderer"
+c9017	= "Geforderter"
+c9018	= "Einschreiben"
+c9019	= "Zuständige Admins:"
+c9020	= "Keine Admins eingetragen"
+c9021	= "Regelwerk"
+c9022	= "Kein Regelwerk vorhanden"
+c9023	= "Teilnehmer Sheet"
+c9024	= "Punkte-Rechner"
+c9025	= "System arbeitet..."
+c9026	= "" ; Pointdiff
+c9027	= "W"
+c9028	= "D"
+c9029	= "L"
+
+c9030	= "Schritt 1"
+c9031	= "Modus wählen"
+c9032	= "Gegener"
+c9033	= "Modus"
+c9034	= "Map"
+c9035	= "Spieltermin am"
+c9036	= "Termin"
+
+c9040	= "Schritt 2"
+c9041	= "Map wählen"
+
+c9050	= "Schritt 3"
+c9051	= "Abschicken"
+
+
+c9070	= "Einzelmap"
+c9071	= "Zufallsmap"
+c9072	= "Zweimaps"
+
+c9080	= "Ankommend"
+c9081	= "Forderung Details"
+c9082	= "Gehend"
+c9083	= "Forderungen"
+c9084	= "Ladder verlassen"
+c9085	= "Rankbutton"
+
+c9100	= ""
+c9101	= "Annehmen"
+c9102	= "Ablehnen"
+c9103	= "Zur Übersicht"
+c9104	= "Komentare"
+c9105	= "Keine Forderungen vorhanden"
+c9106	= "Vielen Dank, Die Forderung wurde erfolgreich angenommen!"
+
+
+c9110	= "Forderung"
+c9111	= "Akzeptiert"
+c9112	= "Abgelehnt"
+c9113	= "Zum Match"
+
+c9120	= "Es wurden  {$num_comments} Nachrichten verfasst."
+c9121	= "Eingeschrieben seit {date time=$time}"
+
+c9201   = "In Ladder `{$ladder}` einschreiben"
+c9202	= "Es werden nicht alle Kriterien  erfüllt!"
+c9203	= "Du bist bereits in dieser Ladder eingeschrieben"
+c9204	= "Du hast leider keinen passenden GameAccount"
+c9205	= "Du kannst dich erst in {$time_left.days} Tage {$time_left.hours} Stunden {$time_left.mins} Minuten {$time_left.seconds} Sekunden in die Ladder einschreiben"
+c9206	= "Die Ladderanmeldung ist geschlossen!"
+c9207	= "Die Ladder ist noch nicht eröffnet. Am {date timestamp=$time_left} Uhr kannst du dich einschreiben"
+c9208	= "Die Teilnehmergrenze wurde bereits erreicht."
+c9209	= "Es sind nicht genug Spieler mit einem geeigneten Game-Account vorhanden"
+
+
+c9220	= "Herzlichen Glückwünsch, du hast dich gerade in die Ladder eingeschrieben"
+
+c9500 	= "Du kannst kannst dich nicht selbst fordern"
+c9501 	= "Die Forderung wurde an deinen Gegner Übermittelt. Über die Zentrale&nbsp;>&nbsp;Forderungen kannst du weitere Details einsehen."
+c9502 	= "Es gibt gerade keine angesagten Spieltermine."
+c9503	= "Dieses Team ist nicht in dieser Ladder vertreten."
+c9504	= "Noch keine Ergebnisse vorhanden"
+c9505	= "Keine Ladder-News vorhanden"
+c9506	= "Du bist in dieser Ladder noch nicht eingeschrieben"
+
+c9600 	= "Matches ´{$name|strip_tags|stripslashes}´"
+
+c9800	= "Fast-Challenger BETA"
+c9801	= "Nächste Losung"
+c9802	= "Eingetragen"
+
+
+; FAST CHALLNEGE, ADD PARTICIPANT TO POOL
+c9850	= "Du bist bereits eingetragen"
+c9851	= "Du hast dich gerade in den Fast-Challenger Pool eingetragen"
+c9852	= "Es ist ein Fehler aufgetreten. Sollte dieser Fehler erneut auftreten, melde das bitte dem Webmaster"
+c9853	= "Du hast gerade den Fast-Challenger Pool verlassen"
+c9854	= "Fast-Challenger"
+c9855	= "Hiermit möchte ich den Fast-Challenger Pool verlassen"
+c9856	= "Hiermit möchte ich bei der Fast-Challenger Verlosung teilnehmen!"
+c9857	= "jetzt teilnehmen"
+c9858	= "jetzt verlassen"

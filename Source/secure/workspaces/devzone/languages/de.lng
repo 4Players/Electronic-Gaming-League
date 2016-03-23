@@ -1,0 +1,56 @@
+c0001	= "Deutsch"
+
+c1000	= "Suche"
+c1001	= "Schlüsselwort"
+c1002	= "ID"
+c1003	= "starten"
+
+
+
+c1100	= "Alle Workspaces"
+c1101	= "Gesamte Plattform"
+c1102	= "Basis"
+c1103	= "Suchergebnisse"
+c1104	= "Datei"
+c1105	= "Wert"
+c1106	= "BUFFER"
+c1107	= "TYPE"
+c1108	= "C-ID"
+c1109	= "TPL-VAR"
+c1110	= "WS"
+c1111	= "MLS"
+c1112	= "Multi Language System"
+
+
+c1200	= "Profiler"
+c1201	= "Noch keine Implementierung"
+c1202	= "SQL"
+c1203	= "MySync"
+
+
+; SQL
+c1300	= "SQL-Querys"
+c1301	= "SQL-Befehl ausführen"
+c1302	= "Ergebnisse"
+c1303	= "Keine Ergebnisse"
+
+; SQL-MySync
+c1400	= "MySync"
+c1401	= "Importieren"
+c1402	= "Exportieren"
+c1403	= "exportieren"
+c1404	= "Alle auswählen"
+c1405	= "zurücksetzen"
+c1406	= "Auswahl Invertieren"
+c1407	= "Datei"
+c1408	= "TEXT/XML"
+c1409	= "VORSCHAU"
+c1410	= "SYNCHRONISATION DURCHGEFÜHRT"
+c1411	= "Insgesamt {$count} Modifikationen gefunden!"
+c1412	= "Insgesamt <b>{$count_ok}</b> von {$count} Modifikationen übernommen"
+c1413	= "SQL-Befehl wurde erfolgreich ausgeführt!"
+c1414	= "einlesen"
+c1415	= "Datei"
+c1416	= "jetzt synchronisieren"
+c1417	= "Daten Exportieren"
+c1418	= "Wert hinzufügen"

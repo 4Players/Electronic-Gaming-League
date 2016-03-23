@@ -1,0 +1,36 @@
+
+
+
+	; ====================================
+	; A D M I N I S T R A T I O N
+	; ====================================
+	administration.admin.overview			= admin.master,admin.cms,admin.ladder
+	administration.admin.participants		= admin.master,admin.cms,admin.ladder
+	administration.admin.newencount			= admin.master,admin.cms,admin.ladder
+	administration.admin.encounts			= admin.master,admin.cms,admin.ladder
+	administration.admin.configuration		= admin.master,admin.cms
+	administration.admin.administrator		= admin.master.admin.cms
+
+	administration.gameladders				= admin.master,admin.cms,admin.ladder
+	administration.newladder				= admin.master,admin.cms
+	administration.overview					= admin.master,admin.cms,admin.ladder
+	
+	team.challenge							= team.squad_leader,team.orga,callback.team.challengelocked
+	team.enter								= team.squad_leader,team.orga
+	team.quit								= team.squad_leader,team.orga
+	team.deny								= "team.squad_leader,team.orga,callback.team.challenge_check(state=2)"
+	team.challengedetails					= team.squad_leader,team.orga,callback.team.challenge_check
+	team.challengelist						= team.all
+	team.fastchallenge.enter				= team.squad_leader,callback.team.ladderjoined	
+	team.fastchallenge.quit					= team.squad_leader,callback.team.ladderjoined	
+
+	; => callback.team.ladderjoined schaut, ob überhaupt die ladder gejoined wurde, falls nicht hat er kein zugriff auf die seite
+
+	member.challenge						= "member,callback.member.challengelocked,"
+	member.enter							= "member"
+	member.quit								= "member"
+	member.deny								= "member,callback.member.challenge_check(state=2)"	; 2->CHALLENGING MODE
+	member.challengedetails					= member,callback.member.challenge_check
+	member.challengelist					= member
+	member.fastchallenge.enter				= member,callback.member.ladderjoined
+	member.fastchallenge.quit				= member,callback.member.ladderjoined

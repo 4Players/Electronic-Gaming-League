@@ -1,0 +1,36 @@
+;# ================================ Copyright © 2005-2006 Inetopia, All rights reserved. ==========================
+;# 
+;#
+;# Purpose:
+;# ================================================================================================================
+
+	;-------------------------------
+	; member
+	;-------------------------------
+	member.center			= member
+	member.delete			= member
+	member.profile			= member
+	member.select_games		= member
+	match.list				= member
+	email_send				= member
+	pm.write				= member
+	pm.overview				= member
+	pm.show					= member
+	pm.write				= member
+	logout					= member
+	photo.upload			= member
+
+
+	; PAGE					= RIGHTS
+
+	; SESSIONS
+	sessions.new			= member
+	sessions.center			= 
+
+
+	; organiser
+	organiser.register		= member
+	organiser.center		= ;organiser.headmaster,organiser.support
+	organiser.mini_forum	= ;organiser.headmaster,organiser.support,organiser.*
+	
+	

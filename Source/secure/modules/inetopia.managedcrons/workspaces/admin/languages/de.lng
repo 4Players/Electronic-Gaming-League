@@ -1,0 +1,15 @@
+c1000	= "ManagedCron Services"
+c1001	= "ManagedCron-Server"
+c1002	= "aktivieren"
+c1003	= "deaktivieren"
+c1004	= "Letzter Aufruf"
+c1005	= "Anz. Aufrufe"
+c1006	= "fehlgeschlagen"
+
+
+c1010	= "Der ManagedCron-Server ist nicht erreichbar. Bitte prüfen Sie unter Einstellungen die Daten"
+c1011	= "Anfrage wurde aufgrund eines unbekannten Key-Request vom ManagedCron-Server abgewiesen. Bitte stellen Sie sicher, dass Sie einen gültigen Key über die Einstellungen eingetragen haben."
+c1012	= "Module `{$module_name}` benötigt v{$required_version}, um den Service nutzen zu können."
+;c1012	= "Module `{$managedcrons[mc].available_module.name}` benötigt v{$managedcrons[mc].required_version}, um den Service nutzen zu können."
+c1013	= "Dieser Service nutzt ein fehlendes Modul."
+c1014	= "Hier erfahren Sie mehr"

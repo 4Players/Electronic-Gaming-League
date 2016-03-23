@@ -1,0 +1,150 @@
+c0001 = "Deutsch"
+
+c1000 = "Login"		; page title
+c1001 = "Login" 		; button
+c1002 = "Login-ID"
+c1003 = "Passwort"
+c1004 = "Automatisch einloggen, aktivieren"
+c1005 = "Passwort vergessen"
+c1006 = "Noch nicht registriert?"
+c1007 = "E-Mail"
+c1008 = "Mitglied freischalten"
+c1009 = "Anmelden"
+
+c1010 = "Team"
+c1011 = "Teams"
+c1012 = "Clan"
+c1013 = "Clans"
+c1014 = "Mitglied"
+c1015 = "Mitglieder"
+c1016 = "Key"
+c1017 = "Key wiederholen"
+c1018 = "abschicken"
+c1019	= "Administrator"
+c1020	= "Nickname"
+
+; LOGOUT
+c1030	= "Du hast dich erfolgreich ausgeloggt";
+c1031	= "Du bist momentan nicht eingeloggt"
+
+
+c1100 = "Weiter"
+c1101 = "Zurück"
+c1102 = "Map"
+c1103 = "Status"
+c1104 = "Match"
+c1105 = "Refresh"
+
+c1200 = "Unbekannt"
+c1201 = "Bekannt"
+c1202 = "Mehr"
+c1203 = "Details"
+c1204 = "Fehler"
+c1205 = "Warnung"
+c1206 = "Information"
+c1207 = "Bestätigung"
+c1208 = "bestätigen"
+
+c1300 = "Bitte wählen"
+c1310 = "Bitte Team wählen..."
+
+c1400	= "aktiviert"
+c1401	= "deaktiviert"
+c1402	= "aktiv"
+c1403	= "inaktiv"
+c1404	= "eintragen"
+c1405	= "Eingetragen"
+c1406	= "jetzt eintragen"
+c9803	= "Teilnehmer"
+
+; ...
+c2000	= "Dieses Mitglied kann diese Rechte nicht erhalten, da es nicht im Team ist"
+c2001	= "Das Primär-Mitglied hat bereits diese Rechte"
+c2002	= "Die Sicherheitseingaben sind fehlerhaft. Bitte prüfe diese erneut"
+c2003	= "Die neuen Rechte können keine Primär-Rechte sein"
+c2004	= "Die Primär-Rechte wurden erfolgreich vergeben."
+c2005	= "Mit dieser Aktion verlierst du deine Primär-Rechte an das entsprechende Mitglied"
+c2006	= "Primär-Rechte `{$primary_rights}` vergeben"
+c2007	= "An Mitglied"
+c2008	= "Neue Berechtigung"
+
+
+; E-MAIL SEND
+c2100	= "E-Mail verschicken"
+c2101	= "Empfänger"
+c2102	= "Betreff"
+c2103	= "Nachricht"
+
+c2104 = "E-Mail wurde verschickt"
+c2105	= "Es ist ein Fehler aufgetreten. Bitte melde das umgehend dem Webadministrator. Vielen Dank!"
+
+
+; FAQ
+c2201	= "FAQ - Frequently aked Questions"
+c2202	= ""
+
+; PASSWORD,FORGOT?
+c2301	= "Passwort vergessen?"
+c2302	= "Neues Passwort"
+c2303	= "Ein neues Passwort wurde gerade auf dein E-Mail Postfach verschickt"
+c2304	= "Es wurde keine passendes Mitglied zu diesen Daten gefunden"
+c2305	= ""
+; ..
+c2310 = "Das Passwort konnte nicht erneuert werden. Bitte melde das umgehenden dem Webadministrator"
+c2311	= "Es ist ein unbekannter Fehler aufgetreten. Bitte melde das umgehenden dem Webadministrator"
+
+; STARTSEITE
+c2350	= "News Übersicht"
+c2361	= "FULL STORY"
+c2362	= "Geschrieben von {$name|strip_tags|stripslashes}, {date timestamp=$timestamp}"
+
+; SIGNIN
+c2400	= "Registrierung"
+c2401	= "Nutzungsbedingungen"
+c2402	= "Datenschutz"
+c2403	= "Hiermit bestätige ich die Nutzungsbedingungen!"
+c2404 = "Hiermit bestätige ich den Datenschutz!"
+c2405	= "Sicherheitscode"
+c2406	= "Bitte gebe ein geeigntes Passwort an"
+c2407 	= "Bitte gebe eine gültige E-Mail an"
+c2408 	= "Die Nutzungsbedingungen und der Datenschutz müssen akzeptiert werden um sich anzumelden"
+c2409	= "Ein Mitglied mit diesen Daten existiert bereits"
+c2410	= "Es ist ein Fehler während der Anmeldung augetreten. Bitte melde das umgehend dem Webadministator"
+c2411	= "Die Anmeldung war erfolgreich. Sie erhalten in kürze eine Bestätigung per E-Mail. Vielen Dank!"
+c2412	= "Es sind folgende Fehler während der Anmeldung aufgetreten"
+c2413	= "DU bist bereits eingeloggt"
+c2414	= "Nationalität"
+c2415	= "Registrierung"
+
+; PROFILE
+c2500	= "Profil"
+c2501	= "Nickname"
+c2502	= ""
+
+; TEAM
+c2600	= "Interaktiv Team"
+c2601	= "Einstellungen"
+c2602	= "Daten editieren"
+c2603	= "Games wählen"
+c2604	= "Team Logo"
+c2605	= "Team löschen"
+c2606	= "Clan beitreten"
+c2607	= "Clan  verlassen"
+c2608	= "Mitglieder"
+c2609	= "Mitglieder-Übersicht"
+c2610	= "Zugriffsrechte"
+c2611	= "Begegnungen"
+c2612	= "Offene Matches"
+c2613	= "Matches"
+c2614	= "Sonstiges"
+c2615	= "Team Supportanfragen"
+c2616	= "Team Proteste"
+c2617	= "Mitglied kicken"
+
+
+
+; ERROR-PAGE(s)
+c3001	= "Es ist ein Fehler aufgetreten"
+c3002	= "Die Seite konnte nicht geladen werden"
+c3003	= "Entweder Sie haben keine Rechte für diesen Bereich oder Sie sind nicht eingeloggt. Bei Fragen wenden Sie sich bitten an den Webmaster an die zuständigen Administratoren."
+

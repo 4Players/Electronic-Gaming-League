@@ -1,0 +1,15 @@
+
+
+(1) Jede Minute wird von einem root-script der ManagedCron-Timer aufgerufen:
+---------------------------------------------------
+	(A) Ist das ein ManagedCron-Dienst (würde sich anbieten)
+	(B) Ist das ein "normaler" EGL.Service
+
+
+
+
+
+
+ManagedCron-Timer: (JEDE MINUTE)
+ -> schaue welche managedcrons angemeldet sind.
+ -> führe die managedcrons aus, die jetzt auf ein update warten (auch evt. welche, die nicht gezpdatete werden konnten, EGL-server down, oder anderer server down)

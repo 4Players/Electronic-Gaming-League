@@ -1,0 +1,51 @@
+c0001	= "Deutsch"
+
+c1000	= "Installation"
+c1001	= "EGL.ConfigSheet"
+c1002	= "Benutzer"
+c1003	= "Passwort"
+c1004	= "Hinweis"
+c1005	= "Noch keine Implementierung vorhanden"
+c1010	= "Sie haben Fragen bezüglich der Installation? Dann stellen Sie doch Ihre fragen direkt in unserem <A target='_blank' href='http://www.electronicgamingleague.de/forum/'>Forum</a>. "
+c1011	= "weiter"
+c1012	= "zurück"
+
+; INSTALLATION, START
+c2000	= "EGL Installation starten"
+c2001	= "Willkommen auf der EGL Plattform. Im folgenden kann die EGL Erstkonfiguration bequem durch den EGL.InstallWizard durchgeführt werden. Bitte folgen Sie den einzelnen Installationsinstruktionen, damit eine erfolgreiche Installation gewährleistet werden kann. <br/><br/> Die Installation wird in insgesamt drei Schritten erfolgen, die nacheinander abgearbeitet werden.<br/>Sollten Fragen während der Installation oder während der Nutzung auftreten, können Sie uns gerne über unsere <A target='_blank' href='http://www.electronicgamingleague.de/'>Onlineplattform</a> kontaktieren."
+
+
+; INSTALLATION, SECURITY
+c2100	= "Datenbank Verbindung"
+c2101	= "Schnittstelle"
+c2102	= "Server"
+c2103	= "Datenbank"
+
+c2104	= "Sämtliche Daten, die Sie hier eingeben, werden nur lokal gespeichert."
+c2105	= "Es ist ein Verbindungsfehler aufgetreten '{$error_msg}'."
+c2106	= "Es ist ein unbekannter Fehler aufgetreten. Bitte melden Sie dies umgehend auf unserer <A target='_blank' href='http://www.electronicgamingleague.de'>EGL-Support Platform</a>."
+
+
+c2200	= "EGL.ConfigSheet"
+
+; INSTALLATION, MODULE
+c2300	= "Module"
+
+
+; INSTALLATION, EMAIL SETTINGS
+c2400	= "E-Mail Einstellungen"
+
+c2411	= "Support"
+c2412	= "Kontakt"
+c2413	= "Webmaster"
+c2414	= "Passwort vergessen?"
+c2415	= "Anmeldung"
+c2416	= "No-Response"
+c2417	= "Absender Name"
+
+; INSTALLATION MODUS
+c2500	= "EGL Installation jetzt starten!"
+c2501	= "EGL Installation jetzt starten!"
+
+; INSTALLATION LANGUAGE
+c2600	= "Sprache wählen"

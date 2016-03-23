@@ -1,0 +1,4 @@
+# 292.12.06
+
+nusoap.php, Line 3613, set as comment
+PROBLEM: Only php5, could not convert $this->methodreturn (soap_fault) to string

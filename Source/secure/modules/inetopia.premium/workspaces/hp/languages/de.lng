@@ -1,0 +1,17 @@
+
+c1000 = "Premium Mitglied"
+c1001 = "Kein Premium Mitglied"
+
+
+; MEMBER-CENTER MENU-ITEMS
+c1010 = "Mitglied werden"
+c1011 = "Mein Premium"
+
+
+; REGISTER MEMBER
+c1100 = "Premium Mitglied werden"
+c1101 = "Um sich als Premium Mitglied freizuschalten benötigst du einen Freischalt-Code, den nun momentan nur über einen Administrator erhälst."
+
+; ACTIVATE-CODE
+c1200	= "Dieser Code wurde bereits benutzt."
+c1201	= "Der Code wurde erfolgreich freigeschaltet"

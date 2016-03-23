@@ -1,0 +1,33 @@
+c0001	= "English"
+
+c1000	= "Search"
+c1001	= "Keyword"
+c1002	= "ID"
+c1003	= "start"
+
+
+
+c1100	= "All Workspaces"
+c1101	= "Entire platform"
+c1102	= "Basic"
+c1103	= "Results"
+c1104	= "File"
+c1105	= "Value"
+c1106	= "BUFFER"
+c1107	= "TYPE"
+c1108	= "C-ID"
+c1109	= "TPL-VAR"
+c1110	= "WS"
+c1111	= "MLS"
+c1112	= "Multi Language System"
+	
+c1200	= "Profiler"
+c1201	= "No implementaion available"
+c1202	= "SQL"
+
+
+; SQL
+c1300	= "SQL-Querys"
+c1301	= "Execute SQL-Statement"
+c1302	= "Results"
+c1303	= "No Results"

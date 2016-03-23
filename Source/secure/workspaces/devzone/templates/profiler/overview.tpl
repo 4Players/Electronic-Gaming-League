@@ -1,0 +1,2 @@
+<h2>{$LNG_BASIC.c1200}</h2>
+{$LNG_BASIC.c1201}

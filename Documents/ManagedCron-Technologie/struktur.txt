@@ -1,0 +1,56 @@
+-------------------
+ManagedCrons Server
+-------------------
+
+
+(WS:ADmin) 
+- Angemeldete Nutzer
+- Konfigurationen
+
+
+(WS:Services)
+- Dispose(jede Minute ausgeführt, um die angemeldeten MC-Dienste (ManagedCron-Dienste) abzuarbeiten
+- Signin Service
+- Signout Service
+
+
+
+
+
+
+1. Client kann sich die unterstützten ManagedCrons auflisten lassen
+2. Zwei unterschiedeliche Cronarbeiten
+	* Ausführende URL (Workspace: Managed-Crons)
+3. Managed Cron hat folgende Daten:
+	- External/Internal Cron
+	- Source-Service: URL-vom Service (PHP,ionCube Codiert?)
+	- 
+
+
+
+Aktuell-geplante-Service:
+- Match Kontrolle (Screenshots)
+- Nicht aktivierte Mitglieder entfernen
+- Module.Ladder: FastChallenge
+- Module.Ladder: Statistiken
+
+
+
+******************************
+
+
+Offene Fragen:
+(1)  sollten die ManagedCrons von jedem Module selbst aktiviert deaktiviert werden?
+     Oder soll es ein´Zentrum geben worüber die ManagedCrons angezeigt werden.
+     (es muss zb. ein ManagedCron nicht unbedingt zu einem Modul gehören sondern allgemein für die Plattform)
+
+(2) Wird jeder Service am Remote extra vom MC-Server aufgerufen oder gibt es dafür eine Zentrale Datei auf dem client
+(3) Welche Informationen (Kann) bekommt der client vom server bei einem managedcron aufruf?
+
+
+
+
+Entscheidungen:
+
+(1) Server übergibt Liste an Crons an den Client
+    * Client muss den Cron haben um ihn zu nutzen

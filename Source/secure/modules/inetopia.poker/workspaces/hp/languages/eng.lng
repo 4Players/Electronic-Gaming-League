@@ -1,0 +1,16 @@
+c0001 = "English"
+
+c1000 = "Login"	; page title
+c1001 = "Login" ; button
+c1002 = "Login-Name"
+c1003 = "Password"
+c1004 = "Automatical login, activation"
+c1005 = "Lost password?"
+c1006 = "Currently not registered?"
+
+
+c1100 = "Next"
+c1101 = "Back"
+c1102 = "Map"
+c1103 = "State"
+c1104 = "Match"

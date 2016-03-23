@@ -1,0 +1,4 @@
+;# EGL.PAM
+
+editpost	= admin.master,admin.cms,admin.forum.global.moderator,admin.forum.moderator,callback.forum.author
+newpost		= callback.topic.locked

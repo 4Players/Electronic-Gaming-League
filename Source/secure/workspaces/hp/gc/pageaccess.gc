@@ -1,0 +1,118 @@
+;# ================================ Copyright © 2005-2006 Inetopia, All rights reserved. ==========================
+;# 
+;#
+;# Purpose:
+;# ================================================================================================================
+
+
+
+;######################################################################
+:	Description:
+:	
+:	
+:	
+:	
+;######################################################################
+
+	;-------------------------------
+	; member
+	;-------------------------------
+	member.center			= member
+	member.delete			= membersign
+	member.profile			= member
+	member.select_games		= member
+	match.list				= member,clan.leader
+	email_send				= member
+	pm.write				= member
+	pm.overview				= member
+	pm.show					= member
+	pm.write				= member
+	logout					= member
+	photo.upload			= member
+	signin					= 			; closed
+	;register				= 
+	member.protests			= member
+	member.newprotest		= member
+	member.viewprotest		= member
+	member.activate			= callback.member.activationcode_check
+	
+
+	
+	;-------------------------------
+	; Clan
+	;-------------------------------
+	clan.memerlist			= clan.all
+	clan.quit				= member			
+	clan.center				= clan.all
+	clan.create_team		= clan.leader,clan.coleader
+	clan.delete				= clan.leader
+	clan.join				= member
+	clan.create				= member
+	clan.overview			= clan.all
+	clan.permissions		= clan.all
+	clan.profile			= clan.leader,clan.coleader
+	clan.kick				= clan.leader
+	clan.delete				= clan.leader
+	clan.logo				= clan.leader,clan.coleader
+	clan.invite				= clan.leader,clan.coleader
+	clan.invites			= clan.leader,clan.coleader
+	clan.set_leader			= clan.leader
+	clan.create_team		= clan.leader,clan.coleader
+	
+		
+
+	;-------------------------------
+	; Team
+	;-------------------------------
+	team.create				= member
+	team.quit				= member
+	team.quit_clan			= team.squad_leader
+	team.profile			= team.squad_leader
+	team.leave				= team.squad_leader
+	team.permissions		= team.all
+	team.select_games		= team.squad_leader
+	team.add				= team.squad_leader
+	team.memberlist			= team.all
+	team.join_clan			= team.squad_leader
+	team.kick				= team.squad_leader
+	team.logo				= team.squad_leader
+	team.teamselect			= member
+	team.setleader			= team.squad_leader
+	team.memberlist			= member
+	
+	
+	
+	;-------------------------------
+	; Admin
+	;-------------------------------
+	administration.overview				= admin
+	
+	administration.clan.search			= admin.master,admin.cms,admin.clans
+	administration.clan.profile			= admin.master,admin.cms,admin.clans
+	administration.clan.permissions		= admin.master,admin.cms,admin.clans
+	
+	administration.member.search		= admin.master,admin.cms,admin.members
+	administration.member.profile		= admin.master,admin.cms,admin.members
+	administration.member.central		= admin.master,admin.cms,admin.members
+	administration.member.game_accounts	= admin.master,admin.cms,admin.members
+	
+	
+	administration.team.search			= admin.master,admin.cms,admin.teams
+	administration.team.profile			= admin.master,admin.cms,admin.teams
+	administration.team.permissions		= admin.master,admin.cms,admin.teams
+	
+	administration.match.admin			= admin.master,admin.cms,admin.matches
+	administration.match.search			= admin.master,admin.cms,admin.matches
+	
+	administration.protests.overview	= admin.master,admin.protests,admin.cms
+	administration.protests.admin		= admin.master,admin.protests,admin.cms,callback.admin.protest_check
+	administration.protests.delete		= admin.master,admin.cms,callback.admin.protest_check
+	
+	administration.online.memberlist	= admin.master,admin.onlinelist
+	
+	
+	;-------------------------------
+	; Premium
+	;-------------------------------
+	;test						= team.squad_leader,base_callback.premium.team.check
+	;test						= "base_callback.premium.member.check(package_id=2;)"

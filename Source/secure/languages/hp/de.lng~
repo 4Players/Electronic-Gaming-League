@@ -1,0 +1,360 @@
+[infos]
+	name 		= Germany
+	created		= 30 May-2005
+
+
+	
+	
+	
+	
+	
+; ================================================================
+; ================================================================
+;
+; L A N G U A G E    -   T E X T E S  
+;
+; ================================================================
+; ================================================================
+
+
+[general]
+
+
+	welcome				= "Willkommen"
+
+
+
+	; member.center
+	edit_data			= "Daten editieren"
+	change_photo			= "Foto ändern"
+	change_logo			= "Logo ändern"
+	delete_account			= "Account löschen"
+	chose_games			= "Spiele auswählen"
+	game_accounts			= "Game-Accounts"
+	first_page			= "Startseite"
+	support_questions		= "Supportanfragen"
+	protests			= "Proteste"
+	set_protest			= "Protest einlegen"
+	read_agb			= "AGBs lesen"
+	profile				= "Profil"
+	settings			= "Einstellungen"
+	challenges			= "Challanges"
+	other_stuff			= "Sonstiges"
+	overview			= "Übersicht"
+	games				= "Spiele"
+	game_tag			= "Kürzel"
+	
+	
+	
+	change				= "Ändern"
+	send				= "Senden"
+	
+	please_chose			= "Bitte wählen"
+
+
+	clan_data			= "Clandaten"
+	create_clan			= "Clan erstellen"
+	join_clan			= "Clan joinen"
+	quit_clan			= "Clan verlassen"
+	delete_clan			= "Clan löschen"
+	
+	
+	team_data			= "Teamdaten"
+	create_team			= "Team erstellen"
+	join_team			= "Team joinen"
+	quit_team			= "Team verlassen"
+	delete_team			= "Team löschen"
+	
+
+	cmember_permissions		= "Zugriffsrechte"
+	invite_member			= "Mitglied einladen"
+	kick_member			= "Mitglied kicken"
+
+	
+	languages			= "Sprachen"
+	skin_layout			= "Skin & Layout"
+	rank_button			= "Rankbutton"
+	database_interface		= "Datenbank Schnittstelle"
+	
+	write_pm			= "Nachrichten schreiben"
+	new_pms				= "Neue Nachrichten"
+	pm_archive			= "Nachrichten archiv"
+		
+
+	all_matches			= "Alle Matches"
+	matches				= "Matches"
+	open_matches			= "Offene Matches"
+	closed_matches			= "Abgeschlossene Matches"
+	
+	
+	
+	cmember_permissions		= "Zugriffsrechte"			; tmember steht für team member, cmember steht für clan member
+	tmemberlist			= "Memberlist"
+	add_tmember			= "Member hinzufügen"		; tmember steht für team member, cmember steht für clan member
+	remove_tmember			= "Member enternen"
+	
+	
+	
+	registered_since		= "Registriert seit"
+	last_login			= "Letzter login"
+	;login_name			= "Login-Name"
+	password			= "Passwort"
+	first_name			= "Vorname"
+	second_name			= "Nachname"
+	nick_name			= "Nickname"
+	sex				= "Geschlecht"
+	email				= "eMail"
+	contact				= "Kontakt"
+	personality			= "Persönlichkeiten"
+	
+	
+	clan_name			= "Clan-Name" 
+	clan_tag			= "Clan-Kürzel"
+	clan_homepage			= "Clan-Homepage"
+	
+	
+	
+	;CPU				= 
+	;mainboard			= "Mainboard/Motherboard"
+	graphiccard			= "Grafikkarte"
+	soundcard			= "Soundkarte"
+	mouse				= "Maus"
+	mouse_pad			= "Mauspad"
+	keyboard			= "Tastatur"
+	memory				= "RAM - Speicher"
+	harddisk			= "Festplatte"
+	monitor				= "Bildschirm"
+	connection			= "Internet-Verbindung"
+	game_console			= "Spiele-Konsole"
+	
+	
+	
+	country				= "Land"
+	city				= "Stadt"
+	zip					= "PLZ"
+	street				= "Straße"
+	birsthday			= "Geburstag"
+	handy_nr			= "Handy-Nr."
+	hobbies				= "Hobbys"
+	description			= "Beschreibung"
+	
+	
+	search_member			= "Mitglied suchen"
+	search_clan			= "Clan suchen"
+	search_team			= "Team suchen"
+	
+	
+	clan_profile			= "Clan Profil"
+	show_gamer_photos		= "Spielerfotos anzeigen"
+	
+	
+	
+	_yes				= "Ja"
+	_no				= "Nein"
+	
+
+	
+	permissions			= "Rechte"
+	kick				= "Kicken"
+	
+	
+
+	league				= "Liga"
+	leagues				= "Ligen"
+	cup				= "Cup"
+	ladder				= "Ladder"
+
+	
+[design]
+
+
+
+	search				= "Suchen"
+	other_stuff			= "Sonstiges"
+	imprint				= "Impressum"
+
+
+
+
+
+
+
+; --------------------
+; Login
+; --------------------
+
+[login]
+
+	success_welcome_title 		= "Login efolgreich"
+	success_welcome_text 		= "Willkommen {$name}, Sie haben sich erfolgreich eingeloggt.  <br>Sie werden jetzt weitergeleitet. {forwarding url='`$url_file`page=member.center' }"
+	
+	error_loggedin_title		= "Login Fehlgeschlagen"
+	error_loggedin_text		= "Sie sind bereits eingeloggt ! "
+	
+	error_unknowndata_title		= "Login Fehlgeschlagen"
+	error_unknowndata_text		= "Die eingegebenen Daten sind uns nicht bekannt !"
+
+
+; --------------------
+; Logout
+; --------------------
+[logout]
+
+	
+	success_loggedout_title 	= "Ausgeloggt!"
+	success_loggedout_text 		= "Sie haben sich erfolgreich ausgeloggt ! {forwarding sec='2' url='`$url_file`'}"
+
+	error_not_loggedin_title 	= "Logout fehlgeschlagen"
+	error_not_loggedin_text 	= "Sie sind nicht eingeloggt!"
+	
+	
+	error_unknown_title 		= "Logout fehlgeschlagen"
+	error_unknown_text 		= "Es ist ein Fehler beim Ausloggen aufgetreten."
+
+
+;--------------------
+; Signin
+; --------------------
+
+[signin]
+
+
+	success_signed_title		= "Anmeldung erfolgreich"
+	success_signed_text		= "Sie haben sich erfolgreich angemeldet_ Sie erhalten in Kürze eine E-Mail die Ihr Passwort enthält. "
+	
+
+	error_member_exists_title	= "Anmeldung fehlgeschlagen"
+	error_member_exists_text	= "Es ist bereits ein Mitglied mit diesen Daten angemeldet. "
+
+	error_unknown_title		= "Anmeldung fehlgeschlagen"
+	error_unknown_text		= "Es ist ein Fehler bei der Anmeldung aufgetreten_ Bitte versuchen Sie den Vorgang erneut !"
+	
+	error_email_failed_title	= "Fehler"
+	error_email_failed_text		= "Es ist ein Fehler bei der Anmeldung aufgetreten. Es konnte keine eMail geschickt werden. Bitte melden Sie dies umgehend dem Administration !"
+
+
+	
+	error_loggedin_title		= "Fehler"
+	error_loggenin_text		= "Sie können sich während einem Login nicht Anmelden !"
+		
+	
+
+
+; --------------------
+; Signout
+; --------------------
+[signout]
+
+
+
+; --------------------
+; forgot password
+; --------------------
+
+[forgot_password]
+	success_psdcreated_title		= "Neues Passwort generiert"
+	success_psdcreated_text			= "Sie erhalten in Kürze eine eMail mit einem neu generierten Passwort. Das Passwort kann im Profil verändert werden. "
+	
+
+
+	error_unknown_title				= "Fehler"
+	error_unknown_text				= "Es ist ein Fehler bei der Anmeldung aufgetreten Bitte versuchen Sie den Vorgang erneut !"
+
+	
+	error_nodata_title				= "Fehler"
+	error_nodata_text				= "Es konnten keine übereinstimmenden Daten in der Datenbank gefunden werden. "
+		
+
+
+; --------------------
+; Change - E-Mail
+; --------------------
+[change_email]
+
+	success_changed_title		= "Änderung erfolfreich"
+	success_changed_text		= "Sie haben Ihre E-Mail erfolgreich geändert !"
+
+	
+	warning_destroyable_title 	= "Warnung"
+	warning_destroyable_text 	= "Bitte beachten Sie, dass Sie durch eine fehlerhafte Angabe Ihrer E-Mail Adresse Ihren Account beschädigen könne_ Daher gehen Sie 100% sicher, dass Ihre angegebene E-Mail Adresse richtig ist_"
+
+
+	error_in_use_title		= "Fehler"
+	error_in_use_text		= "Diese E-Mail wird bereits verwendet_ Bitte geben Sie eine andere E-Mail Adresse ein !"
+
+
+
+; --------------------
+; Change - Login Name 
+; --------------------
+
+[change_loginname]
+
+	success_changed_title 		= "Änderung erfolfreich"
+	success_changed_text 		= "Sie haben Ihren Login-Namen erfolgreich geändert !"
+
+		
+	warning_new_name_title 		= "Warnung"
+	warning_new_name_text 		= "Bitte beachten Sie, dass der neue Name Ihr neuer Login Name sein wird!"
+
+	
+	error_in_use_title 		= "Fehler"
+	error_in_use_text 		= "Dieser Login-Name wird bereits verwendet_ Bitte wählen Sie einen anderen Login-Namen aus !"
+
+
+
+
+; --------------------
+; Change - Passwort
+; --------------------
+
+[change_passwort]
+
+
+	success_changed_title		= "Änderung erfolfreich"
+	success_changed_text		= "Sie haben Ihr Passwort erfolgreich geändert !"
+	
+
+	error_wrong_input_title		= "Fehler"
+	error_wrong_input_text		= "Die Input-Daten sind leider nicht korrekt_ Bitte überprüfen Sie Ihre Eingaben !"
+
+
+
+
+	
+[clan_setleader]
+	
+	warning_losemaster_title	= "Achtung"
+	warning_losemaster_text		= "Hiermit verlieren Sie die Masterrechte für diesen Clan. Diese Aktion ist nicht wiederrufbar!"
+	
+	error_wronginputs_title		= "Fehler"
+	error_wronginputs_text		= "Die Eingabefelder wurde nicht vollständig oder richtig ausgefüllt. Aktion wird abgebrochen! {forwarding url='`$url_file`page=clan.permissions&clan_id=`$_get.clan_id`' }"
+	
+	error_wrongmember_title		= "Fehler"
+	error_wrongmember_text		= "Dieser Person können keine {$clan_first_permission->name}-Rechte vergeben werden."
+	
+	
+	success_permission_assigned_title="Erfolgreich"
+	success_permission_assigned_text ="Sie haben die Rechte erfolgreich vergeben! Sie habennun keine Masterrechte mehr!"
+
+;--------------------------
+; Match Report
+;--------------------------
+[match_report]
+
+
+
+		
+	media_success_uploaded_title		= "Upload erfolgreich!"
+	media_success_uploaded_text		= "Die Media-Datei(en) wurden erfolgreich hochgeladen ! {forwarding sec='2' url='`$url_file`page=match_report&match_id=`$_get_match_id`'}"
+	
+	
+	media_error_unknown_title		= "Fehler"
+	media_error_unknown_title		= "Es ist ein unbekannter Fehler aufgetreten! Bitte melden Sie dies umgehend dem Webadministrator_"
+
+	report_success_reported_title		= "Erfolgreich"
+	report_success_reported_text		= "Das Ergebnis wurde erfolgreich eingetragen!"
+		
+		
+	report_error_unknown_title		= "Fehler"
+	report_error_unknown_text		= "Es ist ein unbekannter Fehler aufgetreten! Bitte melden Sie dies umgehend dem Webadministrator_"

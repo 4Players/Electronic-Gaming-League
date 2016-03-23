@@ -1,0 +1,8 @@
+$_SESSION['member']
+
+$_SESSION['member']['id']
+$_SESSION['member']['lng']
+
+
+$_COOKIE['member']['check']	= MD5( password+id)
+$_COOKIE['member']['id']
